@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Sun Leo (ZX) video cards
 Summary(pl):	Sterownik obrazu X.org dla kart graficznych Sun Leo (ZX)
 Name:		xorg-driver-video-sunleo
-Version:	1.0.0.5
+Version:	1.1.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-video-sunleo-%{version}.tar.bz2
-# Source0-md5:	029b34509669d563e7036235db9029d6
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-sunleo-%{version}.tar.bz2
+# Source0-md5:	0408d95795d754c92d12d6476b6932a1
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -16,7 +16,8 @@ BuildRequires:	xorg-proto-fontsproto-devel
 BuildRequires:	xorg-proto-randrproto-devel
 BuildRequires:	xorg-proto-renderproto-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-BuildRequires:	xorg-xserver-server-devel >= 0.99.3
+BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
+Requires:	xorg-xserver-server >= 1.0.99.901
 ExclusiveArch:	sparc sparcv9 sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
