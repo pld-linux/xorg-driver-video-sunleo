@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Sun Leo (ZX) video cards
-Summary(pl):	Sterownik obrazu X.org dla kart graficznych Sun Leo (ZX)
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla kart graficznych Sun Leo (ZX)
 Name:		xorg-driver-video-sunleo
 Version:	1.1.0
 Release:	0.1
@@ -31,9 +31,9 @@ and servers:
 - SPARCserver 1000
 - SPARCcenter 2000
 
-%description -l pl
-Sterownik obrazu X.org dla kart graficznych Sun Leo (ZX). Obs≥uguje
-wszystkie stacje robocze Suna zawieraj±ce uk≥ad Leo (znany takøe jako
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla kart graficznych Sun Leo (ZX). Obs≈Çuguje
+wszystkie stacje robocze Suna zawierajƒÖce uk≈Çad Leo (znany tak≈ºe jako
 ZX, TZX, TurboZX):
 - Sun 4/15, 4/30, 4/75,
 - SPARCstation 5, 10, 20
